@@ -49,19 +49,19 @@ $(document).ready(function() {
 
     ScrollReveal().reveal('.job', {
         origin: 'left',
-        duration: 2000,
+        duration: 1000,
         distance: '20%'
     });
 
     ScrollReveal().reveal('#description', {
         origin: 'left',
-        duration: 2000,
+        duration: 1000,
         distance: '20%'
     });
 
     ScrollReveal().reveal('#contact_form', {
         origin: 'right',
-        duration: 2000,
+        duration: 1000,
         distance: '20%'
     });
 
