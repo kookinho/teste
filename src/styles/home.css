@@ -1,0 +1,41 @@
+#home {
+    background-color: var(--lemon);
+    color: var(--dark-purple);
+    display: flex;
+    min-height: 100vh - 91px;
+    background-image: radial-gradient(circle, #0000001a 1.5px, transparent 1.5px);
+    background-size: 20px 20px;
+}
+
+#cta {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 5%;
+}
+
+#cta .logo {
+    font-size: 3rem;
+}
+
+#cta .description {
+    font-size: 1.1rem;
+}
+
+#cta_buttons {
+    display: flex;
+    gap: 24px;
+}
+
+#cta_buttons {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 368px) {
+    #cta .title {
+    font-size: 2.6rem;
+    }
+}
