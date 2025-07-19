@@ -74,7 +74,7 @@ $(document).ready(function() {
             const subject = document.getElementById('subject').value;
             const message = document.getElementById('message').value;
             
-            const fullMessage = `*Assunto: ${subject}*\n\nOlá, Me chamo ${name}!\n${message}`;
+            const fullMessage = `*Assunto: ${subject}.*\n\nOlá, Me chamo ${name}!\n${message}`;
             
             const encodedMessage = encodeURIComponent(fullMessage);
             
